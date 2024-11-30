@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Norse Bold';
+    src: url('images/Norse-Bold.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    gap: 50px;
+}
+
+.sidebar {
+    background-image: url('https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    height: 100vh;
+    width: 35vw;
+    position: relative;
+}
+
+.logo {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.logo img {
+    height: 15vh;
+}
+
+.logo p {
+    font-size: 80px;
+    color: white;
+    font-family: 'Norse Bold';
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.footer p a {
+    color: white;
+}
+
+.main {
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.main > p {
+    font-size: 22px;
+    font-weight: bold;
+    width: 700px;
+}
+
+.form {
+    padding: 10px 30px;
+    border: 2px solid whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+form > div {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+input {
+    border: 2px solid #E5E7EB;
+}
+input[type="password"]:invalid {
+    border: 2px solid red;
+}
+
+input:focus {
+    outline: 3px solid rgb(173, 216, 230);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}  
+
+button {
+    background-color: #596D48;
+    color: white;
+    padding: 10px 50px;
+}
+
+#change {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+#change a {
+    text-decoration: none;
+    color: black;
+}
